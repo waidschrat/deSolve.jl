@@ -1,0 +1,22 @@
+Package: deSolve.jl
+Type: Package
+Title: Solvers for Initial Value Problems of Differential Equations using Julia
+Version: 0.1.0
+Author: person("Robert", "Miller", email = "robert.miller@bfr.bund.de", role = c("aut", "cre"))
+Maintainer: Robert Miller <robert.miller@bfr.bund.de>
+Description: Functions that solve initial value problems
+    of a system of first-order and higher-order ordinary and
+    stochastic differential equations ('ODE' and 'SDE'),
+    ordinary and stochastic partial differential equations
+    ('PDE' and 'SPDE'), random differential equations ('RDE'),
+    differential algebraic equations ('DAE'), delay
+    differential equations ('DDE'), and others.
+    The functions provide an interface to the library
+    'DifferentialEquations.jl' that contains a collection
+    of the classic C/FORTRAN algorithms and high-performance
+    Julia implementations of more recently developed algorithms.
+    A full description is given at http://docs.juliadiffeq.org.
+Depends: R (>= 3.4.4)
+License: CC BY-SA 4.0
+Encoding: UTF-8
+LazyData: true
